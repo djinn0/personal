@@ -12,8 +12,8 @@ function generateSelectorNavBar() {
     /* - Elements of Navigation bar  (e = Element, edc = dropdown content, dm = dropdown menu)*/
     var b = document.getElementsByTagName("body")[0];
     var h = document.getElementsByTagName('head')[0];
-    var e1 = '<li class="navigation-element"><a href="index.html">Sex Toy Ahoy</a></li>';
-    var e2 = '<li class="navigation-element"><a href="template.html">New Reviews</a></li>';
+    var e1 = '<li class="navigation-element"><a href="index.html">Home</a></li>';
+    var e2 = '<li class="navigation-element"><a href="template.html">place holder</a></li>';
     var edc1 = '<a href="menu.html">Reviews</a>'; 
     var edc2 = '<a href="ArticleList3.html">Articles</a>'; 
     var edc3 = '<a href="gridPractice2.html">About</a>';
