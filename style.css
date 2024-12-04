@@ -1,1 +1,101 @@
+/* Default Styling for website */
+
+* {
+  box-sizing: border-box;
+}
+
+/* sets margin and padding to 0 creating a seamless look that stretches to the edges of the window */
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/* Desktop styling */
+
+  /* Content styling */
+    .content{
+      margin: auto; /* centers content */
+      width: 60%;   /* sets width of content */
+    }
+
+    h1.content{
+      font-size: 1.75em;
+    }
+      
+    h2.content{
+      font-size: 1.5em;
+    }
+      
+    h3.content{
+      font-size: 1.5em;
+    }
+      
+    p.content{
+      margin-bottom: 2vh; /* adds line spacing at end of paragraph */ 
+      font-size: 1.5em;
+    }
+
+  /* Margin div used for spacing content, add a empty div with id m */
+    #m {
+      height: 3vh;
+      width: 100%;
+      opacity: 0.0;
+      background-color: white;
+    }
+  
+  /* Margin div used for spacing desktop content, will not be displayed in mobile content, add empty div with id dm */ 
+    #dm{
+      height: 3vh;
+      width: 100%;
+      opacity: 0.0;
+      background-color: white;
+    }
+
+/* Styling for mobile content */
+  @media only screen and (max-width: 1000px){     
+    .content{
+      margin: auto;
+      width: 90%;
+    }
+
+    .title {
+      margin: auto;
+      width: 90%;
+      color: black;
+      font-size: 9vmin;
+      text-align: left;
+    }
+
+    .subtitle {
+      margin: auto;
+      width: 90%;
+      color: #404040;
+      font-size: 6vmin;
+      text-align: left;
+    }
+
+    /* Margin div used for spacing desktop content, will not be displayed in mobile content */ 
+    #dm{
+      display: none;
+    }  
+
+    /* font scalled to the screen size is used for mobile content */
+    h1.content {
+      font-size: 8vmin;
+    }
+
+    h2.content {
+      font-size: 5vmin;
+    }
+        
+    h3.content {
+      font-size: 4vmin;
+    }
+        
+    p.content {
+      font-size: 4vmin;
+    }  
+  }
+
 
