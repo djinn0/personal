@@ -8,10 +8,32 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: blue;
+  background-color: white;
 }
 
 /* Desktop styling */
+
+  .title {
+    margin: auto;
+    width: 60%;
+    font-size: 3.5em;
+    color: black;
+  }
+
+  .subtitle{
+    margin: auto;
+    width: 60%;
+    font-size: 3em;
+    color: black;
+  }
+
+  .date {
+    width: 50%;
+    font-size: 1.5;
+    margin: auto;
+    color: #4e4e4e;
+    margin-bottom: 2vh;
+  }
 
   /* Content styling */
     .content{
@@ -73,6 +95,12 @@ body{
       color: #404040;
       font-size: 6vmin;
       text-align: left;
+    }
+
+    .date {
+      font-size: 5vmin;
+      width: 90%;
+      text-align: center;
     }
 
     /* Margin div used for spacing desktop content, will not be displayed in mobile content */ 
