@@ -39,7 +39,7 @@ body{
     position: relative;
     width: 100%;
     height: 1em;
-    background-color: pink;
+    background-color: purple;
   }
 
    a.button{
@@ -143,11 +143,6 @@ body{
     p.content {
       font-size: 4vmin;
     } 
-
-    a.button{
-      left: 8%;
-      font-size: 5vmin;
-    }
   }
 
 
