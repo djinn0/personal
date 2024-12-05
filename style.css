@@ -123,9 +123,9 @@ body{
     }
 
     a.button{
-      left: 8%;
+      left: 6%;
       font-size: 5vmin;
-      color: red;
+      color: white;
     }
 
     /* Margin div used for spacing desktop content, will not be displayed in mobile content */ 
