@@ -50,8 +50,8 @@ body{
      text-decoration: none;
      display: inline-block;
      padding: 5px 10px;
-     font-size: 0.8em;
-     left: 18%;
+     font-size: 1.2em;
+     left: 20%;
    }
 
   /* Content styling */
@@ -120,6 +120,12 @@ body{
       font-size: 5vmin;
       width: 90%;
       text-align: center;
+    }
+
+    a.button{
+      left: 8%;
+      font-size: 5vmin;
+      color: red;
     }
 
     /* Margin div used for spacing desktop content, will not be displayed in mobile content */ 
