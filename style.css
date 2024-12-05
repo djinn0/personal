@@ -142,7 +142,12 @@ body{
         
     p.content {
       font-size: 4vmin;
-    }  
+    } 
+
+    a.button{
+      left: 8%;
+      font-size: 5vmin;
+    }
   }
 
 
